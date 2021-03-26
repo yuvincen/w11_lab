@@ -7,3 +7,19 @@ const todolist = [{todo: "clone repo for starter code", status:"complete"},
 
 const completedtodos = [];
 
+for (i in todolist) {
+    if (todolist[i].status === "complete") {
+        completedtodos.push(todolist[i])
+    }
+}
+
+let {
+    todo: {
+    }
+    status: {
+    }
+} = completedtodos
+
+for (i in completedtodos) {
+    console.log(todolist[0].status)
+}
