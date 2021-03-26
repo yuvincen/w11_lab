@@ -13,12 +13,9 @@ for (i in todolist) {
     }
 }
 
-let {
-    todo: {
-    }
-    status: {
-    }
-} = completedtodos
+console.log(completedtodos)
+
+const [{todo: a, status ab}, {todo: b, status: ba}] = completedtodos
 
 for (i in completedtodos) {
     console.log(todolist[0].status)
